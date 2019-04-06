@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.6"
+    "echarts": "^4.2.1",
+    "vue": "^2.6.6",
+    "vue-echarts": "^4.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
@@ -43,5 +45,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "This repo is the source code created for an article I wrote about how to create charts and graphs in Vue.js. This code shows you how to had both a bar chart and line chart to a Vue.js application.",
+  "main": "babel.config.js",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "echarts",
+    "vue-echarts"
+  ],
+  "author": "Jennifer Bland",
+  "license": "MIT"
 }
